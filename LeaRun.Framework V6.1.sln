@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Framework 基础设施层", "01 Framework 基础设施层", "{C6B09613-CC72-4D16-8056-1FD68ED86BF3}"
 EndProject
@@ -109,6 +109,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaRun.Cache.Factory", "LeaRun.Cache\LeaRun.Cache.Factory\LeaRun.Cache.Factory.csproj", "{A68CDD21-2E12-4B11-95DB-D0A0FCED48B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaRun.Util.SignalR", "LeaRun.Util.SignalR\LeaRun.Util.SignalR.csproj", "{6BC8C632-4985-4E7E-B5CA-375D400EA8A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql_data", "sql_data", "{448B0E2B-EE04-4820-B516-B95EF80673F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
