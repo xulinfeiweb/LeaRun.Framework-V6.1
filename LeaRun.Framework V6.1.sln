@@ -110,8 +110,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaRun.Cache.Factory", "Lea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaRun.Util.SignalR", "LeaRun.Util.SignalR\LeaRun.Util.SignalR.csproj", "{6BC8C632-4985-4E7E-B5CA-375D400EA8A5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql_data", "sql_data", "{448B0E2B-EE04-4820-B516-B95EF80673F5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
