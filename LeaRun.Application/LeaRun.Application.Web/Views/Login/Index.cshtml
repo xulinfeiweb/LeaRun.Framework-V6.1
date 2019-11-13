@@ -14,6 +14,7 @@
     <script src="~/Content/scripts/plugins/validator/validator.js"></script>
     <script src="~/Content/scripts/plugins/tipso.min.js"></script>
     <script>
+
         var contentPath = '@Url.Content("~")'.substr(0, '@Url.Content("~")'.length - 1);
         var isIE = !!window.ActiveXObject;
         var isIE6 = isIE && !window.XMLHttpRequest;
@@ -30,6 +31,7 @@
         }
         //初始化
         $(function () {
+
             $(".wrap").css("margin-top", ($(window).height() - $(".wrap").height()) / 2 - 35);
             $(window).resize(function (e) {
                 $(".wrap").css("margin-top", ($(window).height() - $(".wrap").height()) / 2 - 35);
@@ -238,7 +240,7 @@
                         }
                     });
                 }
-            })
+            });
             //获取验证码
             $("#register_getcode").click(function () {
                 var $this = $(this);
@@ -262,6 +264,7 @@
         })
         /*=========注册账户（end）================================================================*/
     </script>
+   
 </head>
 <body class="aaabody">
     <div style="position: absolute; top: 20px; left: 20px; color: #4b4b4b; font-size: 13px; line-height: 22px;">
@@ -277,16 +280,18 @@
                 <legend>登录伙伴</legend>
                 <dl class="form">
                     <dd>
-                        <input id="username" type="text" class="px" placeholder="账户、邮箱或手机号"></dd>
+                        <input id="username" type="text" class="px" placeholder="账户、邮箱或手机号">
+                    </dd>
                     <dd>
-                        <input id="password" type="password" class="px" placeholder="密码"></dd>
+                        <input id="password" type="password" class="px" placeholder="密码">
+                    </dd>
                     <dd style="overflow: hidden;">
                         <div style="float: left; width: 65%">
                             <input id="verifycode" maxlength="4" type="text" class="px" placeholder="图片验证码">
                         </div>
                         <div style="float: left; width: 35%">
                             <img id="login_verifycode" class="img_verifycode" src="~/Login/VerifyCode" width="100" height="30" alt="点击切换验证码"
-                                title="点击切换验证码" style="cursor: pointer; padding-top: 2px; padding-left: 5px;" />
+                                 title="点击切换验证码" style="cursor: pointer; padding-top: 2px; padding-left: 5px;" />
                         </div>
                     </dd>
                     <dd>
@@ -300,7 +305,8 @@
                         <button id="btnlogin" type="button" class="pn"><span>登录</span></button>
 
                     </dd>
-                    <dd class="ft"><span>还没有力软框架帐号？</span><a id="a_register" style="cursor: pointer;">立即注册</a>
+                    <dd class="ft">
+                        <span>还没有力软框架帐号？</span><a id="a_register" style="cursor: pointer;">立即注册</a>
                     </dd>
                 </dl>
             </fieldset>
@@ -321,7 +327,8 @@
                         </div>
                     </dd>
                     <dd>
-                        <input id="txt_register_name" type="text" class="px" placeholder="姓名"></dd>
+                        <input id="txt_register_name" type="text" class="px" placeholder="姓名">
+                    </dd>
                     <dd style="margin-bottom: 5px;">
                         <input id="txt_register_password" type="password" class="px" placeholder="密码">
                         <p class="info">密码长度为8~30个字符，需包含字母和数字</p>
@@ -339,7 +346,8 @@
                     <dd class="btn">
                         <button id="btnregister" type="button" class="pn"><span>注册</span></button>
                     </dd>
-                    <dd class="ft"><span>已有力软框架帐号？</span><a id="a_login" style="cursor: pointer;">直接登录</a>
+                    <dd class="ft">
+                        <span>已有力软框架帐号？</span><a id="a_login" style="cursor: pointer;">直接登录</a>
                     </dd>
                 </dl>
             </fieldset>
@@ -348,7 +356,7 @@
     <div class="copyright">
         上海力软信息技术有限公司出品
         <br>
-        LR-ADMS 敏捷开发框架官方网站：http://www.learun.cn/adms/index.html 
+        LR-ADMS 敏捷开发框架官方网站：http://www.learun.cn/adms/index.html
     </div>
     <div class="rides-cs">
         <div style="float: left;">
@@ -378,22 +386,25 @@
                     <li>
                         <div style="float: left; padding-left: 5px; padding-right: 5px;">售前咨询：</div>
                         <div style="float: left; padding-top: 12px;">
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=812431372&site=qq&menu=yes">
-                                <img border="0" src="http://wpa.qq.com/pa?p=2:812431372:51" alt="点这里给我发消息" /></a>
+                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=371603746&site=qq&menu=yes">
+                                <img border="0" src="http://wpa.qq.com/pa?p=2:371603746:51" alt="点这里给我发消息" />
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div style="float: left; padding-left: 5px; padding-right: 5px;">售前咨询：</div>
                         <div style="float: left; padding-top: 12px;">
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=403722956&site=qq&menu=yes">
-                                <img border="0" src="http://wpa.qq.com/pa?p=2:403722956:51" alt="点这里给我发消息" /></a>
+                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=371603746&site=qq&menu=yes">
+                                <img border="0" src="http://wpa.qq.com/pa?p=2:371603746:41" alt="你好，我是小飞哥哥" title="你好，我是小飞哥哥" />
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div style="float: left; padding-left: 5px; padding-right: 5px;">售前咨询：</div>
                         <div style="float: left; padding-top: 12px;">
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=286998563&site=qq&menu=yes">
-                                <img border="0" src="http://wpa.qq.com/pa?p=2:286998563:51" alt="点这里给我发消息" /></a>
+                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=371603746&site=qq&menu=yes">
+                                <img border="0" src="http://wpa.qq.com/pa?p=2:371603746:51" alt="点这里给我发消息" />
+                            </a>
                         </div>
                     </li>
                 </ul>

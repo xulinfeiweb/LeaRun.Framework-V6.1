@@ -80,7 +80,7 @@ namespace LeaRun.Util
         private static bool CheckValidationResult(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors)
         {
             return true; //总是接受  
-        }  
+        }
         public static string BuildRequest(string strUrl, Dictionary<string, string> dicPara, string fileName)
         {
             string contentType = "image/jpeg";
@@ -327,7 +327,7 @@ namespace LeaRun.Util
             }
             return responseStr;
         }
-        public static string HttpGet(string url,Encoding encodeing, Hashtable headht = null)
+        public static string HttpGet(string url, Encoding encodeing, Hashtable headht = null)
         {
             HttpWebRequest request;
 
