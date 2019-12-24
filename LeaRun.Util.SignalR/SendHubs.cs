@@ -18,7 +18,7 @@ namespace LeaRun.Util.SignalR
         /// <param name="methodName"></param>
         public static void callMethod(string methodName, params object[] args)
         {
-            var hubConnection = new HubConnection(LeaRun.Util.Config.GetValue("SignalRUrl"));
+            var hubConnection = new HubConnection(Config.GetValue("SignalRUrl"));
             IHubProxy ChatsHub = hubConnection.CreateHubProxy("ChatsHub");
             bool done = false;
             hubConnection.Start().ContinueWith(task =>
